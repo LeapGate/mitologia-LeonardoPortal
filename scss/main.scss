@@ -1,0 +1,39 @@
+.contenedor{
+    background: $contColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    #carouselExampleCaptions{
+        .carousel-inner{
+            .carousel-item{
+                img{
+                    height: 30rem;
+                    width: 30rem ;
+                }
+                
+            }
+        }
+
+    }
+}
+footer{
+    background-color: black;
+    display: block;
+    height: 6rem;
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        height: 83%;
+        align-items: center;
+        li{
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            img{
+                height: 3rem;
+                width: 3rem;
+            }
+        }
+    }  
+}
