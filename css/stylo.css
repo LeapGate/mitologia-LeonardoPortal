@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+.font-weight-light {
+  font-weight: 300; }
+
+.font-weight-medium {
+  font-weight: 400; }
+
+.font-weight-regular {
+  font-weight: 500; }
+
+.font-weight-bold {
+  font-weight: 700; }
+
 .contenedor {
   background: linear-gradient(135deg, #4c4c4c 0%, #595959 12%, #111111 22%, #666666 33%, #474747 39%, #111111 44%, #111111 44%, #2c2c2c 50%, #1c1c1c 66%, #1c1c1c 66%, #1c1c1c 70%, #2b2b2b 74%, #131313 94%);
   display: flex;
@@ -24,3 +37,5 @@ footer {
       footer ul li img {
         height: 3rem;
         width: 3rem; }
+        footer ul li img:hover {
+          transform: scale(1.5); }

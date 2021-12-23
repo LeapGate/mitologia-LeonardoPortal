@@ -33,7 +33,11 @@ footer{
             img{
                 height: 3rem;
                 width: 3rem;
+                &:hover{
+                    transform: scale(1.5);
+                }
             }
         }
     }  
 }
+
