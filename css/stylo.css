@@ -20,6 +20,12 @@
   .contenedor #carouselExampleCaptions .carousel-inner .carousel-item img {
     height: 30rem;
     width: 30rem; }
+  .contenedor .box {
+    display: block;
+    height: 50rem;
+    width: 50%;
+    border: black solid;
+    padding: 20px; }
 
 footer {
   background-color: black;
