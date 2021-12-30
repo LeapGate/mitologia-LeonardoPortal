@@ -14,16 +14,35 @@
                 
             }
         }
+        
+    }
+    
+}
+
+.container-fluid{
+    #titulo{
+        @extend .box;
 
     }
-    .box{
-        display: block;
-        height: 50rem;
-        width: 50%;
-        border: black solid;
-        padding: 20px;
+    .contenedor{
+        .box{
+            @include ColorFont; 
+            display: block;
+            height: 50rem;
+            width: 50%;
+            padding: 20px;
+            margin-top: 2rem;
+            padding: 5px 10px;
+            overflow: auto;
+            p{
+                font-weight: map-get($font-w, light);
+            }
+        }
     }
 }
+
+
+
 footer{
     background-color: black;
     display: block;

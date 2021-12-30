@@ -11,6 +11,9 @@ $font-w:(
         font-weight: $v;
     }
 }
-@mixin name {
+@mixin ColorFont{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
     
 }

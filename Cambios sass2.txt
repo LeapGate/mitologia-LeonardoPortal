@@ -1,0 +1,4 @@
+Se colocaron titulos
+se aplico seo
+se usaron metas decription
+se usaon ejemolos de map, mixin y extend

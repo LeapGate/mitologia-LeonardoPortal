@@ -20,12 +20,20 @@
   .contenedor #carouselExampleCaptions .carousel-inner .carousel-item img {
     height: 30rem;
     width: 30rem; }
-  .contenedor .box {
-    display: block;
-    height: 50rem;
-    width: 50%;
-    border: black solid;
-    padding: 20px; }
+
+.container-fluid .contenedor .box, .container-fluid .contenedor #titulo {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+  display: block;
+  height: 50rem;
+  width: 50%;
+  padding: 20px;
+  margin-top: 2rem;
+  padding: 5px 10px;
+  overflow: auto; }
+  .container-fluid .contenedor .box p, .container-fluid .contenedor #titulo p {
+    font-weight: 300; }
 
 footer {
   background-color: black;
