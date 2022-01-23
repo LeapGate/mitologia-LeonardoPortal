@@ -16,13 +16,24 @@ body {
 
 .contenedor {
   background: linear-gradient(135deg, #4c4c4c 0%, #595959 12%, #111111 22%, #666666 33%, #474747 39%, #111111 44%, #111111 44%, #2c2c2c 50%, #1c1c1c 66%, #1c1c1c 66%, #1c1c1c 70%, #2b2b2b 74%, #131313 94%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; }
-  .contenedor #carouselExampleCaptions .carousel-inner .carousel-item img {
-    height: 30rem;
-    width: 30rem; }
+  /* height: 100vh; */ }
+  .contenedor .row {
+    padding: 5rem 0 0 5rem;
+    --bs-gutter-x: 0rem; }
+  .contenedor .carousel .carousel-width {
+    width: 15rem;
+    height: 15rem; }
+    @media screen and (min-width: 768px) {
+      .contenedor .carousel .carousel-width {
+        width: 17rem;
+        height: 17rem; } }
+    @media screen and (min-width: 1200px) {
+      .contenedor .carousel .carousel-width {
+        width: 21rem;
+        height: 21rem; } }
+  .contenedor .carousel .carousel-inner .carousel-item img {
+    height: 20rem;
+    width: 20rem; }
 
 h1 {
   margin: 0; }

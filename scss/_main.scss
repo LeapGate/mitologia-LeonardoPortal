@@ -3,16 +3,29 @@ body{
     }
 .contenedor{
     background: $contColor;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    #carouselExampleCaptions{
+    /* height: 100vh; */
+    .row{
+        padding: 5rem 0 0 5rem;
+        --bs-gutter-x: 0rem;
+    }
+    .carousel{
+        .carousel-width{
+            width: 15rem;
+            height: 15rem;
+            @include for-breakpoint(l){
+                width: 17rem;
+                height: 17rem;
+            }
+            @include for-breakpoint(xxl){
+                width: 21rem;
+                height: 21rem;
+            }
+        }
         .carousel-inner{
             .carousel-item{
                 img{
-                    height: 30rem;
-                    width: 30rem ;
+                    height: 20rem;
+                    width: 20rem ;
                 }
                 
             }
