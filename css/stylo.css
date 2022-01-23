@@ -40,28 +40,37 @@ h1 {
     @media screen and (min-width: 1200px) {
       .contIndx .row {
         flex-direction: row; } }
-  .contIndx p {
-    margin: 0;
-    color: #fff; }
-  .contIndx .BoxImg img {
+  .contIndx .boxDscrip {
+    color: #fff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    display: block;
+    height: 29rem;
+    width: 80%;
+    padding: 10px;
+    overflow: auto; }
+    @media screen and (min-width: 1200px) {
+      .contIndx .boxDscrip {
+        height: 50rem; } }
+  .contIndx img {
     width: 15rem;
     height: 15rem; }
     @media screen and (min-width: 768px) {
-      .contIndx .BoxImg img {
+      .contIndx img {
         width: 17rem;
         height: 17rem; } }
     @media screen and (min-width: 1200px) {
-      .contIndx .BoxImg img {
+      .contIndx img {
         width: 22rem;
         height: 22rem; } }
 
 .container-fluid .contenedor .box, .container-fluid .contenedor #titulo {
-  border: double black;
   color: #fff;
   font-size: 1rem;
   font-weight: 300;
   display: block;
-  height: 50rem;
+  height: 40rem;
   width: 80%;
   padding: 10px;
   margin: 0;

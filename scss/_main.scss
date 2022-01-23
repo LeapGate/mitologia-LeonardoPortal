@@ -41,22 +41,29 @@ h1{
             
         }
     }
-    p{
-        margin: 0;
+    .boxDscrip{
         color: #fff;
+        @include ColorFont; 
+        display: block;
+        height: 29rem;
+        width: 80%;
+        padding: 10px;
+        overflow: auto;
+        @include for-breakpoint(xxl){
+            height: 50rem;
+        }
     }
-    .BoxImg{
-        img{
-            width: 15rem;
-            height: 15rem;
-            @include for-breakpoint(l){
-                width: 17rem;
-                height: 17rem;
-            }
-            @include for-breakpoint(xxl){
-                width: 22rem;
-                height: 22rem;
-            }
+    
+    img{
+        width: 15rem;
+        height: 15rem;
+        @include for-breakpoint(l){
+            width: 17rem;
+            height: 17rem;
+        }
+        @include for-breakpoint(xxl){
+            width: 22rem;
+            height: 22rem;
         }
     }
 }
@@ -68,10 +75,9 @@ h1{
     }
     .contenedor{
         .box{
-            border: double black;
             @include ColorFont; 
             display: block;
-            height: 50rem;
+            height: 40rem;
             width: 80%;
             padding: 10px;
             margin: 0;
