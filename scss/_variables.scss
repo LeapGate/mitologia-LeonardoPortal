@@ -17,3 +17,15 @@ $font-w:(
     font-weight: 300;
     
 }
+
+$breakpoints: (
+    m: 375px,
+    l: 768px,
+    xl: 1024px,
+    xxl: 1200px
+);
+@mixin for-breakpoint($breakpoint-name){
+    @media screen and (min-width:map-get($breakpoints, $breakpoint-name)){
+        @content
+    } 
+}

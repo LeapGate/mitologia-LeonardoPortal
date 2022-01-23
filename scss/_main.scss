@@ -1,3 +1,6 @@
+body{
+    color: rgb(0, 0, 0);
+    }
 .contenedor{
     background: $contColor;
     display: flex;
@@ -18,6 +21,45 @@
     }
     
 }
+h1{
+    margin: 0;
+}
+
+.contIndx{
+    background: $contColor;
+    display: flex;
+    height: 100vh;
+    .centrarCont{
+        align-items: center;
+        justify-content: center;
+    }
+    .row{
+        margin: 0;
+        flex-direction: column;
+        @include for-breakpoint(xxl){
+            flex-direction: row;
+            
+        }
+    }
+    p{
+        margin: 0;
+        color: #fff;
+    }
+    .BoxImg{
+        img{
+            width: 15rem;
+            height: 15rem;
+            @include for-breakpoint(l){
+                width: 17rem;
+                height: 17rem;
+            }
+            @include for-breakpoint(xxl){
+                width: 22rem;
+                height: 22rem;
+            }
+        }
+    }
+}
 
 .container-fluid{
     #titulo{
@@ -26,13 +68,13 @@
     }
     .contenedor{
         .box{
+            border: double black;
             @include ColorFont; 
             display: block;
             height: 50rem;
-            width: 50%;
-            padding: 20px;
-            margin-top: 2rem;
-            padding: 5px 10px;
+            width: 80%;
+            padding: 10px;
+            margin: 0;
             overflow: auto;
             p{
                 font-weight: map-get($font-w, light);

@@ -11,6 +11,9 @@
 .font-weight-bold {
   font-weight: 700; }
 
+body {
+  color: black; }
+
 .contenedor {
   background: linear-gradient(135deg, #4c4c4c 0%, #595959 12%, #111111 22%, #666666 33%, #474747 39%, #111111 44%, #111111 44%, #2c2c2c 50%, #1c1c1c 66%, #1c1c1c 66%, #1c1c1c 70%, #2b2b2b 74%, #131313 94%);
   display: flex;
@@ -21,16 +24,47 @@
     height: 30rem;
     width: 30rem; }
 
+h1 {
+  margin: 0; }
+
+.contIndx {
+  background: linear-gradient(135deg, #4c4c4c 0%, #595959 12%, #111111 22%, #666666 33%, #474747 39%, #111111 44%, #111111 44%, #2c2c2c 50%, #1c1c1c 66%, #1c1c1c 66%, #1c1c1c 70%, #2b2b2b 74%, #131313 94%);
+  display: flex;
+  height: 100vh; }
+  .contIndx .centrarCont {
+    align-items: center;
+    justify-content: center; }
+  .contIndx .row {
+    margin: 0;
+    flex-direction: column; }
+    @media screen and (min-width: 1200px) {
+      .contIndx .row {
+        flex-direction: row; } }
+  .contIndx p {
+    margin: 0;
+    color: #fff; }
+  .contIndx .BoxImg img {
+    width: 15rem;
+    height: 15rem; }
+    @media screen and (min-width: 768px) {
+      .contIndx .BoxImg img {
+        width: 17rem;
+        height: 17rem; } }
+    @media screen and (min-width: 1200px) {
+      .contIndx .BoxImg img {
+        width: 22rem;
+        height: 22rem; } }
+
 .container-fluid .contenedor .box, .container-fluid .contenedor #titulo {
+  border: double black;
   color: #fff;
   font-size: 1rem;
   font-weight: 300;
   display: block;
   height: 50rem;
-  width: 50%;
-  padding: 20px;
-  margin-top: 2rem;
-  padding: 5px 10px;
+  width: 80%;
+  padding: 10px;
+  margin: 0;
   overflow: auto; }
   .container-fluid .contenedor .box p, .container-fluid .contenedor #titulo p {
     font-weight: 300; }
